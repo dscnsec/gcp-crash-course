@@ -73,4 +73,9 @@
 
 @media screen and (max-width: 480px) {
     .footer__section { width: 100%; }
+
+    .footer__text .credits{
+        text-align: center;
+        margin-top: -20px;
+    }
 }
