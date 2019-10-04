@@ -12,6 +12,11 @@
     margin: 10px;
 }
 
+.footer__text .credits{
+    text-align: right;
+    margin-top: -73px;
+}
+
 .footer__text,
 .footer__link,
 .footer__title {
