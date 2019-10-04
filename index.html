@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="css/style3.css" />
 
     <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/footer.css">
 
 </head>
 
@@ -84,7 +85,7 @@
                                 <div class="single_service ">
                                     <div class="box">
 
-                                        <h4 class="title">Data Science</h4>
+                                        <h4 class="title" id="data">Data Science</h4>
                                         <!-- <p><a href="https://google.qwiklabs.com/quests/34?qlcampaign=6p-EDU-DSC-GCC-78" class="btn_3" target="_blank">Apply</a></p> -->
                                         <p>List of quest to be completed</p>
                                         <ul>
@@ -117,7 +118,7 @@
                                 <div class="single_service ">
                                     <div class="box">
 
-                                        <h4 class="title">App Development</h4>
+                                        <h4 class="title" id="app">App Development</h4>
                                         <!-- <p><a href="https://google.qwiklabs.com/quests/37?qlcampaign=6p-EDU-DSC-GCC-65" class="btn_3" target="_blank">Apply</a></p> -->
                                         <p>List of quest to be completed</p>
                                         <ul>
@@ -149,7 +150,7 @@
                             <div class="single_feature ">
                                 <div class="single_service ">
                                     <div class="box">
-                                        <h4 class="title">Machine Learning</h4>
+                                        <h4 class="title" id="ml">Machine Learning</h4>
                                         <!-- <p><a href="https://google.qwiklabs.com/quests/34?qlcampaign=6p-EDU-DSC-GCC-78" class="btn_3" target="_blank">Apply</a></p> -->
                                         <p>List of quest to be completed</p>
                                         <ul>
@@ -253,17 +254,18 @@
 
     </section>
     <br><br>
+    <!--
     <footer class="footer-area " id="contact">
         <div class="container ">
             <div class="row justify-content-between ">
                 <div class="col-sm-6 col-md-3 col-xl-3 ">
                     <div class="single-footer-widget footer_1 ">
 
-                        <!--  <ul>
+                        
                                     <li><a href="# ">Work</a></li>
                                     <li><a href="# ">Services</a></li>
                                     <li><a href="# ">Contact</a></li>
-                                </ul> -->
+                              
                         <div class="social_icon ">
                             <a href="https://www.facebook.com/dscnsec/" target="_blank"><i class="fa fa-facebook "></i></a>
                             <a href="https://www.twitter.com/dscnsec/" target="_blank"><i class="fa fa-twitter "></i></a>
@@ -283,7 +285,7 @@
                 </div>
             </div>
         </div>
-        <!--
+        
                 <div class="container-fluid ">
                     <div class="row ">
                         <div class="col-lg-12 ">
@@ -298,8 +300,52 @@
                         </div>
                     </div>
                 </div>
-            -->
-    </footer>
+            
+    </footer> -->
+
+    <footer class="footer">
+        <div class="footer__text container">
+          <h4><div>#GCPCrashCourse - 2019 </div></h4>
+          <hr class="footer__hr">
+        </div>
+        <div class="footer__sections container">
+          <div class="footer__section">
+            <span class="footer__title">About</span>
+            <a href="https://developers.google.com/community/dsc" target="_blank" class="footer__link">#DSCIndia</a>
+            <a href="https://dscnsec.com" class="footer__link" target="_blank">#DSCNSEC</a>
+            <a href="https://winterofcode.com" class="footer__link" target="_blank">#WinterOfCode</a>
+            <a href="https://forum.dscnsec.com" class="footer__link" target="_blank">#DSCNSECForum</a> 
+            <a href="https://www.meetup.com/Google-Developer-Group-Cloud-Kolkata/events/258893773/" class="footer__link" target="_blank">#CloudStudyJams19</a>
+            <a href="https://cloud.google.com/gcp/" class="footer__link" target="_blank">#GoogleCloudPlatform</a>
+          </div>
+          <div class="footer__section">
+            <span class="footer__title">Tracks</span>
+            <a href="#data" class="footer__link">#GCPCrashCourse - Data</a>
+            <a href="#app" class="footer__link">#GCPCrashCourse - App</a>
+            <a href="#ml" class="footer__link">#GCPCrashCourse - ML</a>
+          </div>
+          <div class="footer__section">
+            <span class="footer__title">Connect With Us</span>
+            <a href="https://www.facebook.com/groups/1484608101803443/" target="_blank" class="footer__link"><i class="fab fa-facebook"></i>  /dscnsec</a>
+            <a href="https://www.instagram.com/dscnsec/" target="_blank" class="footer__link"><i class="fab fa-instagram"></i>  /dscnsec</a>
+            <a href="https://medium.com/@dscnsec" target="_blank" class="footer__link"><i class="fab fa-medium"></i>  @dscnsec</a>
+            <a href="https://www.youtube.com/dscnsec" target="_blank" class="footer__link"><i class="fab fa-youtube"></i>  /dscnsec</a>
+            <a href="https://github.com/dscnsec" target="_blank" class="footer__link"><i class="fab fa-github"></i>  /dscnsec</a>
+          </div>
+          <div class="footer__section">
+            <span class="footer__title">Contact</span>
+            <div>Developer Student's Club NSEC</div>
+            <div>Garia, Kolkata 700152</div>
+            <div>Email - lead@dscnsec.com</div>
+          </div>
+        </div>
+        <div class="footer__text container">
+          <hr class="footer__hr">
+          <div class="logo-image">
+            <img src="https://i.imgur.com/ySJjdkg.png" class="img-fluid">
+          </div>
+        </div>
+      </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
