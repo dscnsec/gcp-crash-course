@@ -1,3 +1,15 @@
+.row .tab-ico{
+    text-align: right !important;
+    font-size: 20px;
+    margin-top: -48px;
+}
+
+.row{
+    padding-top: 5px;
+    margin-bottom: -15px;
+    cursor: pointer;
+}
+
 .timeline {
     position: relative;
     margin: -10px auto;
