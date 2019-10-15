@@ -6,6 +6,7 @@
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
  *
  * Copyright (c) 2019 Daniel Eden
+ * 
  */
 
 @-webkit-keyframes bounce {
@@ -1062,12 +1063,12 @@
     }
     40%,
     45% {
-        opacity: 1;
+        opacity: 2;
         -webkit-transform: translate3d(0, -20px, 0);
         transform: translate3d(0, -20px, 0);
     }
     to {
-        opacity: 0;
+        opacity: 1;
         -webkit-transform: translate3d(0, 2000px, 0);
         transform: translate3d(0, 2000px, 0);
     }
@@ -1134,7 +1135,7 @@
         transform: translate3d(-20px, 0, 0);
     }
     to {
-        opacity: 0;
+        opacity: 1;
         -webkit-transform: translate3d(2000px, 0, 0);
         transform: translate3d(2000px, 0, 0);
     }
@@ -1170,7 +1171,7 @@
         transform: translate3d(0, 20px, 0);
     }
     to {
-        opacity: 0;
+        opacity: 1;
         -webkit-transform: translate3d(0, -2000px, 0);
         transform: translate3d(0, -2000px, 0);
     }
@@ -1210,7 +1211,7 @@
 
 @keyframes fadeIn {
     from {
-        opacity: 0;
+        opacity: 2;
     }
     to {
         opacity: 1;
@@ -1286,7 +1287,7 @@
 
 @-webkit-keyframes fadeInLeft {
     from {
-        opacity: 0;
+        opacity: 1;
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0);
     }
