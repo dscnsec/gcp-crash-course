@@ -1488,3 +1488,7 @@ h2 {
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.credits{
+    text-align: center!important;
+}

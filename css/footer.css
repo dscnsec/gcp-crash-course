@@ -5,10 +5,16 @@
     margin-top: 5px;
 }
   .footer {
+    font-family: poppins,sans-serif;
     font-size: 1.2rem;
     padding: 20px 5px;
     line-height: 1.6;
     margin: 10px;
+}
+
+.footer__text .credits{
+    text-align: right;
+    margin-top: -73px;
 }
 
 .footer__text,
@@ -53,10 +59,23 @@
     background: rgba(255, 255, 255, 0.50);
 }
 
+@media (max-width:600px){
+    .footer__text .credits{
+        text-align: center;
+        margin-top: -20px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .footer__section { width: 50%; }
+    
 }
 
 @media screen and (max-width: 480px) {
     .footer__section { width: 100%; }
+
+    .footer__text .credits{
+        text-align: center;
+        margin-top: -20px;
+    }
 }

@@ -1,6 +1,7 @@
 body {
     background: #fff;
     color: #666666;
+      overflow-x: hidden;
     font-family: "Open Sans", sans-serif;
 }
 
